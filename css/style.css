@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header .nav {}
+
+.parent .header .nav ul li {
+    display: inline-block;
+    margin: 40px;
+    font-size: 40px;
+}
+
+.parent .header .nav ul li:hover {
+    
+    border-top: 2px solid white;
+    color: #8e8e88;
+}
+
+.meida{
+    float: right;
+    font-size: 50px;
+    
+}
+.meida i{
+    margin: 50px;
+}
+
+.meida i:hover{
+    background-image: linear-gradient(to right,#2eca13 40% , #cff947 70%);
+}
+
+
+.parent .header {
+    background-image: url(../media/pexels-photo-8438918.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: auto;
+    text-transform: capitalize;
+}
+
+.parent .header .element {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.parent .header .element p {
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.parent .header .element h1 {
+    font-size: 75px;
+    margin-top: 30px;
+}
+
+.parent .header .element button {
+   width: 18em;
+   height: 6em;
+   border-radius: 30em;
+   font-size: 20px;
+   border: none;
+   font-family: inherit;
+   position: relative;
+   overflow: hidden;
+   z-index: 1;
+   box-shadow: 6px 6px 12px #c5c5c5 ,
+   -6px -6px 12px #ffffff ;
+   margin: 60px 40px ;
+   color: #ffffff;
+}
+
+button::before{
+    content: '';
+    width: 0;
+    height: 6em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right,#0fd850 0% , #f9f047 100%);
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1;
+}
+button:hover::before{
+    width: 18em;
+}
+
+
+.parent .header .element .bt1 {
+    background-color:transparent;
+    
+}
+
+.parent .header .element .bt2 {
+    background-color: transparent;
+    border: white solid 2px;
+}
+
+.parent .sec {
+    background-color:  rgb(39, 36, 36);
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.parent .sec .hp {
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+   padding: 15px;
+   background-color: ;
+   margin-top: 20px;
+}
+
+.parent .sec .hp:hover{
+    background-color: ;
+    border: solid rgb(55, 48, 48) 2px;
+    transition: 1s ease;
+    background-image: linear-gradient(to right,#8e8e88 50% , #8e8e88 50%);
+}
+
+.clr{
+    clear: both;
+}
+
+.end{
+    background-color: rgb(39, 36, 36) ;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.end i{
+    font-size: 70px;
+    margin: 10%;
+    float: left;
+    color: #ffffff ;
+}
+.end i:hover{
+    background-image: linear-gradient(to right,#0fd850 0% , #f9f047 100%);
+}
+
+
+.cl{
+    background-color: rgb(96, 91, 91);
+}
+
+
+
